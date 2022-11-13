@@ -1,5 +1,6 @@
 import { StyleSheet, TextInput } from 'react-native'
 import React from 'react'
+import colors from '../constants/colors'
 
 const Input = ({ style,...restPorps}) => {
   return (
@@ -25,6 +26,7 @@ const styles = StyleSheet.create({
     borderBottomWidth: 2,
     marginVertical: 10,
     width:50,
+    color: colors.secundary
 
   }
 

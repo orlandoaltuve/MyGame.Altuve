@@ -46,7 +46,7 @@ const StartGameScreen = ({ onStartGame }) => {
         {confirmed && (
           <Card>
             <Text>Tu selección:</Text>
-            <Text>{selectedNumber}</Text>
+            <Text style={{color:colors.secundary}}>{selectedNumber}</Text>
             <Pressable
             style={{ ...styles.cleanButton, ...styles.confirmButton, width:180}}
               onPress={() => onStartGame(selectedNumber)}

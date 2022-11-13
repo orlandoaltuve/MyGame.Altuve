@@ -14,7 +14,7 @@ const GameScreen = () => {
   return (
     <View style={styles.container}>
       <Text>La suposicion del oponente</Text>
-      <Text>{currentGuess}</Text>
+      <Text style={{color: colors.secundary}}>{currentGuess}</Text>
       <Card newStyles={styles.butonContainer}>
         <Pressable style={styles.adivinarButton}>
           <Text style={{color:'white'}}>Menor</Text>
