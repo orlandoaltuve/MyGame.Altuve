@@ -9,6 +9,7 @@ const Input = ({ style,...restPorps}) => {
       autoCorrect={false}
       keyboardType='numeric'
       maxLength={2}
+      textAlign={'center'}
       style={{ ...styles.input, ...style }}
       {...restPorps}
       />

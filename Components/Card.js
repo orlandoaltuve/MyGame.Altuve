@@ -1,8 +1,8 @@
 import { StyleSheet, View } from 'react-native'
 import React from 'react'
 
-const Card = ({children}) => {
-  return <View style={styles.inputContainer}>{children}</View>;
+const Card = ({children, newStyles}) => {
+  return <View style={{...styles.inputContainer, ...newStyles}}>{children}</View>;
   
 }
 
