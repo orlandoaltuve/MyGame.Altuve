@@ -53,7 +53,6 @@ const StartGameScreen = ({ onStartGame }) => {
             >
               <Text style={{color:'white'}}> Comenzar Juego </Text>
             </Pressable>
-            {/* <Button title='Comenzar Juego' onPress={()=>onStartGame(selectedNumber)}/> */}
           </Card>
         )}
       </View>
